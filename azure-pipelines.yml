@@ -18,10 +18,12 @@ steps:
   displayName: 'Install Node.js'
 
 
-- task: BatchScript@1
+- task: Bash@3
   inputs:
-    filename: 'ui/'
-    arguments: 'git init'
+    targetType: 'inline'
+    script: |
+      cd ui
+      git init
 
 - task: Bash@3
   inputs:
