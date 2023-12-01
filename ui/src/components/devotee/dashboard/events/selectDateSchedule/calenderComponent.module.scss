@@ -1,0 +1,103 @@
+.selected_date_circle {
+    background-color: #ff5722;
+    border-radius: 50%;
+    color: #FFF !important;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 3px;
+    &:hover {
+        cursor: pointer;
+    }
+
+}
+
+.date {
+    color: #666;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 3px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.current_date_circle {
+    border: 1px solid #ff5722;
+    border-radius: 50%;
+    color: #666;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 3px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.days_of_week {
+    color: #262626;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    // padding: 3px;
+}
+
+.topContainer {
+    display: flex;
+    // width: 190px;
+    height: 13px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    .buttons {
+        width: 6px;
+        height: 6px;
+        background-color: transparent;
+        border: 0px;
+    }
+
+    .monthName {
+        color: #262626;
+        text-align: center;
+        // font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+.mainContainer {
+    width: 220px;
+    height: 198px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.15);
+    padding-top: 15px;
+
+    .cardContent {
+        padding: 10px;
+        height: 100%;
+    }
+}

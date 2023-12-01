@@ -1,0 +1,226 @@
+.footerContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background:
+      url('/images/footerBg.png'),
+      lightgray 50% / cover no-repeat;
+   padding: 6px 80px;
+
+   .leftSideContainer {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      flex-shrink: 0;
+
+      .imageTempleInfoContainer {
+         display: flex;
+         flex-direction: column;
+
+         .templeInfo {
+            color: #882e14;
+            font-family: "Lato";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            margin-top: 6px;
+            margin-bottom: 16px;
+
+            .readMore {
+               font-size: 14px;
+               font-style: italic;
+               font-weight: 500;
+               line-height: 140%;
+               text-decoration-line: underline;
+
+               &:hover {
+                  cursor: pointer;
+               }
+            }
+         }
+
+         .templeAddress {
+            color: #882e14;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            font-family: "Lato";
+            line-height: 140%;
+           
+
+            .headers {
+               line-height: 2px;
+               margin-bottom: 25px;
+            }
+         }
+      }
+
+      .socialMediaIconsContainer {
+         display: flex;
+         flex-direction: row;
+         gap: 8.5px;
+
+         .mediaIcon {
+            height: 50%;
+            border-radius: 50%;
+            padding: 11px;
+            background-color: #ffffff;
+            margin-right: 19px;
+            display: flex;
+            flex-direction: column;
+
+            .facebookIcon {
+               font-size: 40px;
+               color: #0080ff;
+               padding-top: 5px;
+               padding: 4px 4px 10px 4px;
+               &:hover {
+                  cursor: pointer;
+               }
+            }
+
+            .twitterIcon {
+               padding: 4px 4px 10px 4px;
+               margin-bottom: 14px;
+
+               &:hover {
+                  cursor: pointer;
+               }
+            }
+
+            .instagramIcon {
+               padding: 4px 4px 10px 4px;
+               margin-bottom: 14px;
+
+               &:hover {
+                  cursor: pointer;
+               }
+            }
+
+            .youtubeIcon {
+               font-size: 40px;
+               color: #ff0000;
+               width: 100%;
+
+               &:hover {
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+   }
+
+   .rightContainer {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+
+      .stayConnected {
+         font-family: 'Lato';
+         color: #882e14;
+         font-size: 18px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 140%;
+      }
+
+      .inputFieldContainer {
+         display: flex;
+         flex-direction: row;
+         padding-top: 20px;
+         width: 422px;
+         // width: auto;
+         padding-bottom: 10px;
+
+         .inputText {
+            border-radius: 10px;
+            width: 291px;
+         }
+
+         .button {
+            background-color: #882e14;
+            color: #ffffff;
+            border-radius: 16px;
+            // left: -41px;
+            height: 49px;
+            width: 131px;
+            margin-right: 80px;
+            padding: 12px 32px 12px 22px;
+            text-transform: capitalize;
+            position: absolute;
+            left: 200px; /* Adjust the positioning as needed */
+            // top: 50%; /* Center vertically */
+            transform: translateY(-1%);
+         }
+      }
+
+      .emailContainer {
+         font-family: 'Lato';
+         font-size: 16px;
+         color: #882e14;
+         font-weight: 700;
+         line-height: 140%;
+      }
+
+      .templecopyRight {
+         color: #882e14;
+         font-family: 'Lato';
+         font-size: 18px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 140%;
+         padding-top: 40px;
+      }
+
+      .siteMap {
+         color: #fff;
+         font-family: 'Lato';
+         font-size: 18px;
+
+         font-style: normal;
+         font-weight: 500;
+         line-height: normal;
+         text-decoration-line: underline;
+         padding-top: 10px;
+         padding-bottom: 20px;
+
+         &:hover {
+            cursor: pointer;
+         }
+      }
+
+      .storeButtons{
+        display: flex;
+        gap: 15.45px;
+        .StorebuttonApple {
+            border-width: 0px;
+            background-color: transparent;
+            padding: 0px;
+            width: 143.5px;
+            margin-right: 10px;
+   
+            &:hover {
+               cursor: pointer;
+            }
+        }
+        .StorebuttonGoogle {
+            border-width: 0px;
+            background-color: transparent;
+            padding: 0px;
+            width: 155.5px;
+            margin-right: 10px;
+   
+            &:hover {
+               cursor: pointer;
+            }
+   
+            .innerButton {
+               display: flex;
+               flex-direction: row;
+   
+            }
+         }
+      }
+   }
+}

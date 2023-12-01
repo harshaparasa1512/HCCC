@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/font/Lato/Lato-Regular.ttf');
+  /* IE9 Compat Modes */
+  src: url('/font/Lato/Lato-Bold.ttf')
+    /* IE6-IE8 */
+    url('/font/Lato/Lato-Light.ttf') url('/font/Lato/Lato-Regular.ttf') url('/font/Lato/Lato-Thin.ttf') format('truetype');
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('/font/Inter/Inter-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato';
+}
+
+
+:root {
+  font-family: 'Lato';
+}
+
+.css-1hv8oq8-MuiStepLabel-label {
+  color: #434141 !important;
+  font-family: Inter !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 140% !important;
+}
+
+.css-14sza3e-MuiStepLabel-root {
+  padding: 0 !important;
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  background-color: #fff9e4 !important;
+  border: 1px solid #F05802 !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background-color: #882E14 !important;
+  color: #fff !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background-color: #e7856a !important;
+  color: #fff;
+}

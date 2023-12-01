@@ -1,0 +1,43 @@
+.totalContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+   .BoxContainer {
+      width: 100%;
+      height: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-color: #fff9e4;
+      padding: 17px 0px 17px 31px;
+
+
+      .head {
+         display: flex;
+         color: #f05802;
+         font-size: 12px;
+         font-style: normal;
+         justify-content: center;
+         line-height: 140%;
+         font-weight: 700;
+         cursor: pointer;
+
+         .subHead {
+            display: flex;
+            color: #f05802;
+            font-size: 12px;
+            font-style: normal;
+            justify-content: center;
+            line-height: 140%;
+            margin-right: 16px;
+            font-weight: 400;
+         }
+
+         .arrowTooltip {
+            height: 15px;
+         }
+      }
+   }
+}

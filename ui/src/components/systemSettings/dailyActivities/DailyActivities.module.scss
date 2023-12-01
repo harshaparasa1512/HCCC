@@ -1,0 +1,22 @@
+.totalLayout {
+    margin: 40px;
+    .SubHeading {
+       color: #414141;
+       font-family: Lato;
+       font-size: 24px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: 140%;
+    }
+    .formLayout{
+        display: flex;
+       margin-top: 16px;
+    //    gap: 24px;
+       border-radius: 8px;
+       background: #fff;
+       padding: 24px;
+       box-shadow: 0px 2px 20px 0px rgba(237, 237, 237, 0.8);
+       margin-bottom: 24px;
+    }
+ }
+ 

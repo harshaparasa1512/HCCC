@@ -1,0 +1,62 @@
+.mainMenuContainer {
+   width: 242px;
+   align-items: left;
+   color: #882e14;
+   border-radius: 6px;
+   border: 1px solid var(--Typography, #882e14);
+   background: #fff;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.mainMenu  {
+    padding: 4px 6px 4px 16px;
+    color: var(--Typography, #882E14);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+
+    &.active {
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.subMenuContainer {
+    background: #FFF9E4;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: var(--Typography, #882E14);
+    font-family: Lato;
+}
+
+.subMenu  {
+    padding: 4px 6px 4px 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+
+    &.active {
+        background: var(--Typography, #882E14);
+        color: #FFF;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}

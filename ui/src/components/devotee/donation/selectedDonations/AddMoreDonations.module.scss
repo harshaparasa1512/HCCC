@@ -1,0 +1,66 @@
+.addMoreLayout {
+   border-radius: 6px;
+   width: 517px;
+   height: 547px;
+   flex-shrink: 0;
+   margin: 21px;
+   .heading {
+      color: #fff;
+      font-family: Lato;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      background: #f2be22;
+      height: 34px;
+      text-align: left;
+      padding:16px 0px 8px 16px;
+      
+   }
+   .singleBox {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      padding: 9px 50px 16px 16px;
+
+      .checkTitle {
+         .checkbox {
+            margin-bottom: 18px;
+            color: #f05802;
+            fill: #f05802;
+         }
+         .textradio {
+            .textStyles {
+               color: #000;
+               font-family: Lato;
+               font-size: 14px;
+               font-style: normal;
+               font-weight: 500;
+            }
+         }
+      }
+      .price {
+         color: #000;
+         font-family: Lato;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 500;
+         padding-top: 15px;
+      }
+   }
+   .total {
+      display: flex;
+      justify-content: space-between;
+      background-color: #f2be22;
+      height: 22px;
+      padding: 8px 0px 12px 24px;
+      .selectedStyles {
+         color: #fff;
+         font-family: Lato;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 700;
+         padding-left: 15px;
+         // padding-bottom: 12px;
+      }
+   }
+}

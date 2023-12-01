@@ -1,0 +1,28 @@
+.image {
+   width: 108px;
+   height: 72px;
+   border-radius: 5px;
+
+   img {
+      height: inherit;
+      width: inherit;
+      object-fit: cover;
+      border-radius: inherit;
+   }
+}
+
+.calenderIcon {
+   margin-left: auto;
+   font-size: 15px;
+   padding-top: 8px;
+
+   .dateAndTimePicker {
+      .datepickerandtime {
+         border: none !important;
+         width: 80% !important;
+         overflow: hidden;
+         margin-left: auto;
+         border-radius: 0px !important;
+      }
+   }
+}

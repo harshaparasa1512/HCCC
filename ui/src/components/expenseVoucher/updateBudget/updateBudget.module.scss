@@ -1,0 +1,67 @@
+.BoxContainer {
+    // background-color: antiquewhite;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+
+    .typoGraphyHeading {
+        color: #414141;
+        font-family: Lato;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+    }
+
+    .formContainer {
+
+        .typoGraphy {
+            color: #414141;
+            font-family: Lato;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%;
+            margin-top: 10px;
+        }
+
+        .dropDowns {
+            border-radius: 8px;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .textField {
+            background-color: #FFF9E4 !important;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+
+
+
+
+        .profileLabels {
+            font-size: 10px !important;
+            // font: icon;
+            font-weight: 600;
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+    }
+
+    .otherContainer {
+        .cancelAndSaveButton {
+            border: 0px;
+            font-weight: 600;
+            border-radius: 4px;
+            padding: 13px 16px;
+            margin: 0px 5px 0px 0px;
+        }
+
+        .ckeckboxStyles {
+            color: orange;
+        }
+    }
+
+}

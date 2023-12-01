@@ -1,0 +1,178 @@
+.image {
+   width: 80px;
+   height: 55px;
+   flex-shrink: 0;
+   border-radius: 5px;
+}
+
+.calenderIcon {
+   margin-left: auto;
+   font-size: 15px;
+   padding-top: 8px;
+
+   .dateAndTimePicker {
+      .datepickerandtime {
+         border: none !important;
+         width: 80% !important;
+         overflow: hidden;
+         margin-left: auto;
+         border-radius: 0px !important;
+      }
+   }
+}
+
+.scContainer {
+   border-radius: 8px;
+   background: #FFF;
+   box-shadow: 0px 2px 20px 0px rgba(237, 237, 237, 0.80);
+
+
+   .scheader {
+      color: #313131;
+      font-family: Lato;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+   }
+
+   .searchBox {
+      display: flex;
+      width: 115px;
+    height: 24px;
+    padding: 8px 104px 8px 16px;
+      align-items: center;
+      gap: 8px;
+      border-radius: 8px;
+      background: #FFF9E4;
+   }
+}
+
+.tableContainer {
+   border-collapse: collapse;
+   width: 100%;
+   margin-top: 10px;
+   overflow-y: auto;
+   min-height: auto;
+   max-height: 300px;
+
+   &::-webkit-scrollbar {
+      width: 5px;
+   }
+
+   &::-webkit-scrollbar-thumb {
+      background: #F3C539;
+      border-radius: 5px;
+   }
+
+   .headerTableRow {
+      background: #F2BE22;
+
+      .tableHorizontal {
+         color: #000;
+         font-family: Lato;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 140%;
+         padding: 10px;
+      }
+   }
+
+   .tableBody {
+      background: #FFF9E4;
+   }
+
+   .tableRow {
+      border: 5px solid white;
+      border-radius: 10px;
+      font-size: 14px;
+
+      &:nth-child(even) {
+         background-color: #FFEDB375;
+      }
+
+      &:nth-child(odd) {
+         background-color: #FFFFFF;
+      }
+
+      .tableDiagonal {
+         padding: 8px;
+         text-align: center;
+         font-family: Lato;
+         font-size: 14px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 140%;
+
+         &.documentName {
+            color: #F05802;
+
+            &:hover {
+               text-decoration: underline;
+               cursor: pointer;
+            }
+         }
+
+         &:first-child {
+            border-left-style: solid;
+            border-top-left-radius: 12px;
+            border-bottom-left-radius: 12px;
+         }
+
+         &:last-child {
+            border-right-style: solid;
+            border-bottom-right-radius: 12px;
+            border-top-right-radius: 12px;
+         }
+      }
+
+   }
+
+}
+
+.UpscContainer {
+   margin-left: 40px;
+   border-radius: 8px;
+   background: #FFF;
+   box-shadow: 0px 2px 20px 0px rgba(237, 237, 237, 0.80);
+   padding: 20px;
+
+   .scheader {
+      color: #313131;
+      font-family: Lato;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+   }
+
+   .cardContainer {
+      border-radius: 8px;
+      background: #F6FFE3;
+      height: 104px;
+      flex-shrink: 0;
+      padding: 10px 16px 10px 16px;
+      margin-top: 20px;
+
+      .text {
+         color: #313131;
+         font-family: Lato;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 140%;
+         padding-top: 10px;
+      }
+
+      .innerText {
+         color:  #313131;
+         font-family: Lato;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 140%;
+         padding-left: 10px;
+      }
+   }
+}

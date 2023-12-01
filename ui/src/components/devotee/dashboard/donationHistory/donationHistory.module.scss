@@ -1,0 +1,56 @@
+.donationHistoryMainContainer {
+   height: 402px;
+   border-radius: 5px;
+   margin: 5px;
+   padding: 24px 24px 0px 24px;
+
+   .nameAndButton {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 20px;
+      font-weight: 500;
+
+      .buttonContainer {
+         margin-top: auto;
+         margin-bottom: auto;
+
+         .donationButton {
+            background-color: #f05802;
+            height: 27px;
+            font-size: 12px;
+         }
+
+         .reportButton {
+            background-color: #ffffff;
+            height: 27px;
+            font-size: 12px;
+            margin-right: 10px;
+            border-color: #f05802;
+            color: #f05802;
+            font-weight: 500;
+         }
+      }
+   }
+
+   .notePointCountDivContainer {
+      background-color: #fbebbd;
+      padding: 10px;
+      font-size: 14px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+   }
+}
+
+.CountNumber {
+   font-weight: 700;
+}
+
+.heading {
+   color: var(--Typo, #313131);
+   font-family: Lato;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 140%;
+}

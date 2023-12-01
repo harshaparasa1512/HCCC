@@ -1,0 +1,49 @@
+#root {
+  width: 100%;
+}
+
+
+
+/*radio buttons */
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: 10px;
+}
+
+/*cart icon */
+.css-jcn4dz-MuiBadge-badge {
+  background-color: #555555 !important;
+}
+
+
+
+.primaryColor{
+  color: #F05802;
+}
+
+.cancelButton {
+  color: #F05802;
+  border: 1px solid;
+  border-color: #F05802;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 13px 16px;
+  margin: 0px 5px 0px 0px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+.saveButton{
+    color: white;
+    border: 1px solid;
+    border-color: #F05802;
+    background-color: #F05802;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 13px 16px;
+    margin: 0px 5px 0px 0px;
+    &:hover {
+      cursor: pointer;
+    }
+}

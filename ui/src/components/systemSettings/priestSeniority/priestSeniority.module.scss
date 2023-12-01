@@ -1,0 +1,41 @@
+.mainContainer {
+   .subTitle {
+      color: #414141;
+      font-family: Lato;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+   }
+
+   .description {
+      color: var(--Typo_2, #313131);
+      font-family: Lato;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+   }
+
+   .tableContainer {
+      .circleUpArrowIcon {
+         color: #22a699;
+         display: flex;
+         width: 24px;
+         height: 24px;
+         justify-content: center;
+         align-items: center;
+         flex-shrink: 0;
+      }
+
+      .circleDownArrowIcon {
+         color: #f05802;
+         display: flex;
+         width: 24px;
+         height: 24px;
+         justify-content: center;
+         align-items: center;
+         flex-shrink: 0;
+      }
+   }
+}

@@ -1,0 +1,112 @@
+  .mainMenu {
+    background-color: #882E14;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .userInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-right: 18px;
+
+      .mainUserDetails {
+        position: relative;
+
+        .typoGraphys {
+          display: flex;
+          gap: 1rem;
+        }
+
+        .cardDetails {
+          width: 150px;
+          position: absolute;
+          top: 40;
+          right: 0;
+          z-index: 1;
+          border: "1px solid #F05802 !important";
+          border-radius: 8px;
+          color: #F05802;
+          font-size: 16px;
+          box-shadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.15)";
+
+          :hover {
+            color: green;
+          }
+        }
+      }
+    }
+
+  }
+
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab,
+  .activeTab {
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    color: #fff;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      text-decoration: 4px solid #FFF9E4 underline;
+    }
+  }
+
+  .activeTab {
+    .subTabs {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 1;
+      color: #F05802;
+      font-size: 16px;
+      font-weight: 600;
+      background-color: #fff;
+      border: 1px solid #F05802;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      z-index: 999;
+
+      .subTab {
+        width: 150px;
+        padding: 16px;
+        cursor: pointer;
+        border-bottom: 1px solid #CBCBCB;
+
+        &:first-child:hover {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        }
+
+        &:last-child {
+          border-bottom: 0px;
+
+          &:hover {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+          }
+        }
+
+        &:hover {
+          background-color: #f0f0f0;
+        }
+      }
+    }
+  }
+
+  .searchBox {
+    padding: 15px 18px;
+  }

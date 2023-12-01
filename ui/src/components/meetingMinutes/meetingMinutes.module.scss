@@ -1,0 +1,60 @@
+.header {
+    color: #414141;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.subHeader {
+    color: #414141;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.tableContainer {
+    border-collapse: collapse;
+
+    .headerTableRow {
+        background: #F2BE22;
+    
+        .tableHorizontal {
+            color: #FFF;
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+            padding: 8px;
+
+        }
+    }
+
+    .tableBody {
+        background: #FFF9E4;
+    }
+
+    .tableDiagonal {
+        padding: 8px;
+        text-align: center;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+
+        &.documentName {
+            color: #F05802;
+
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

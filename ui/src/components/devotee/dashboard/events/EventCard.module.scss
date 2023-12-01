@@ -1,0 +1,23 @@
+.EventsLayout {
+    width: 100%;
+   .EventsDetails {
+      background-color: #D9D9D9;
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 15px;
+       margin-left: 22px;
+       margin-right: 22px;
+       .Image {
+          background-color: #c2c2c2;
+          width: 52px;
+          height: 52px;
+          padding: 6px 11px;
+       }
+       .nameDate {
+          display: flex;
+          flex-direction: column;
+          padding-left: 12px;
+          padding-top: 6px;
+       }
+    }
+ }

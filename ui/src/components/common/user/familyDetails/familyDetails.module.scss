@@ -1,0 +1,17 @@
+.BoxContainer {
+    .formContainer {
+        padding: 10px;
+
+        .textField {
+            background-color: white !important;
+            border-radius: 8px;
+        }
+
+        .profileLabels {
+            font-size: 10px !important;
+            font: icon;
+            font-weight: 600;
+        }
+
+    }
+}

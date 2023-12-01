@@ -1,0 +1,25 @@
+.imageContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   // background-color: #FFF9E4;
+   height: 300px;
+   width: 100%;
+   border-radius: 8px;
+
+   .image {
+      height: 129px;
+      width: 129px;
+   }
+   .typography {
+      color:  #313131;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%; /* 22.4px */
+      margin-bottom: 12px;
+      margin-top: 8px;
+   }
+}

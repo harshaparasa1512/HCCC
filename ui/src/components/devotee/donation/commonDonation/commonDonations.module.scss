@@ -1,0 +1,41 @@
+.formContainer {
+    // margin: 5px;
+    padding: 40px 0px 36px 24px;
+    width: 829px;
+    height: 768px;
+    .singleFeild{
+        margin-top: 24px;
+    }
+    .ModeofPayment{
+        margin-top:-25px;
+        padding: 10px;
+        // margin-bottom: 20px;
+    }
+
+    .ckeckBoxContainer {
+        display: flex;
+        flex-direction: column;
+        // gap:20px;
+        margin-top: 24px;
+
+        .label {
+            font-size: 14px;
+            display: flex;
+            
+        }
+        .chckboxTitle{
+            padding-top: 6px;
+        }
+    }
+
+    .textField {
+        background-color: #FFF9E4 !important;
+        border-radius: 8px;
+    }
+
+    .profileLabels {
+        font-size: 10px !important;
+        font: icon;
+        font-weight: 600;
+    }
+}

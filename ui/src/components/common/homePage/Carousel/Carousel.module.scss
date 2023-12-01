@@ -1,0 +1,42 @@
+.CarouselWrapper {
+    position: relative;
+
+    .CarouselContainer {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+
+        .SlideContainer {
+            display: flex;
+            transition: transform 0.5s ease;
+
+            .Slide {
+                min-width: 100%;
+            }
+        }
+
+        .ButtonContainer {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 1;
+
+            .Button {
+                background-color: #FFFFFF;
+                border: none;
+                border-radius: 50%;
+                width: 16px;
+                height: 16px;
+                margin: 0 5px;
+                cursor: pointer;
+
+                &.active {
+                    background-color: #F05802;
+                }
+
+            }
+        }
+    }
+}

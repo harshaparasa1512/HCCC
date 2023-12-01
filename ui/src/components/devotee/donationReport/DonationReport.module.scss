@@ -1,0 +1,128 @@
+.Header {
+   display: flex;
+   justify-content: space-between;
+   .HeaderImage {
+      width: 362px;
+      height: 121px;
+      flex-shrink: 0;
+      padding-bottom: 44px;
+   }
+   .TempleAddress {
+      display: flex;
+      flex-direction: column;
+
+      .TempleNameData {
+         color: #22a699;
+         font-family: Lato;
+         font-size: 24px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 140%;
+      }
+      .TempleAddressData {
+         color: #414141;
+         font-family: Lato;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 140%;
+      }
+   }
+}
+
+.dropdown {
+   display: flex;
+   width: 320px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 4px;
+   flex-shrink: 0;
+}
+.reportContent {
+   background-color: #fff9e4 !important;
+   padding: 40px 40px 0px 40px;
+
+   .SignInName {
+      color: #414141;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      padding-bottom: 16px;
+   }
+   .SignInAddress {
+      color: #414141;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      padding-bottom: 44px;
+   }
+   .loggedInMember {
+      color: #414141;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      padding-bottom: 16px;
+   }
+   .loogedMemberGratitude {
+      color: #414141;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      padding-bottom: 16px;
+   }
+   .paymentDetails {
+      width: 425px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 4px;
+      .paymentDetailsData {
+         // width: 300px;
+         color: #414141;
+         font-family: Lato;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 140%;
+      }
+   }
+   .AboutData {
+      color: #414141;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      padding-top: 20px;
+      padding-bottom: 15px;
+   }
+   .ClosingSignature {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 42px;
+      .SignatureData {
+         color: #414141;
+         font-family: Lato;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 140%;
+         padding-bottom: 52px;
+      }
+   }
+}
+.Button {
+   display: flex;
+   justify-content: flex-end;
+   background-color: #fff9e4 !important;
+   padding: 0px 40px 31px 0px;
+   // height: 30px;
+}

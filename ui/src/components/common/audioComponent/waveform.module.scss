@@ -1,0 +1,116 @@
+.waveFormContainer {
+    position: relative;
+    margin-top: 20px;
+}
+
+#waveform {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #eee;
+  }
+
+#waveform.hovered::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px; /* Thin line width */
+    height: 100%;
+    background-color: red; /* Color of the thin line */
+    pointer-events: none; /* Allow interactions with elements beneath the line */
+  }
+
+  .hoveredLine {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: red; /* Color of the line */
+    left: 0;
+    height: 160px;
+  }
+  
+  .hoveredTime {
+    position: absolute;
+    bottom: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
+    color: #eee;
+    z-index: 2;
+  }
+
+.buttonControls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+    .nextButton {
+        border-width: 0px;
+        background-color: transparent;
+    }
+
+    .playPauseButton {
+        background-color: transparent;
+        border-width: 0px;
+        height: 70px;
+        width: 50px;
+        font-size: 16px;
+    }
+
+    .playIcon {
+        font-size: 40px;
+        height: 50px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+    .volumeInfo {
+        padding-top: 22px;
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+
+        .duration {
+            font-size: 12px;
+            padding-top: 3px;
+        }
+
+        .volumeUpContainer {
+            position: relative;
+            cursor: pointer;
+            padding-left: 20px;
+
+            .volumeIcon {
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+.volumeSlider {
+    position: absolute;
+    top: calc(100% - 20px); /* Adjust the spacing below the volume icon */
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    z-index: 1;
+    width: 20px; /* Set the width of the slider */
+    height: 100px; /* Set the height of the slider */
+    writing-mode: bt-lr; /* Vertical orientation */
+    appearance: slider-vertical; /* Vertical orientation for some browsers */
+    background-color: black; 
+  }
