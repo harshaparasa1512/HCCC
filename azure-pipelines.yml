@@ -17,4 +17,22 @@ steps:
     checkLatest: true
   displayName: 'Install Node.js'
 
+
 - task: BatchScript@1
+  inputs:
+    filename: 'ui/'
+    arguments: 'git init'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      cd ui 
+      npm install
+      npm run dev build
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'dist'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
